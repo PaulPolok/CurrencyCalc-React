@@ -1,0 +1,14 @@
+.label__field {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.form__labelText {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+
+}

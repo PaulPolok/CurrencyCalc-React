@@ -1,4 +1,5 @@
-
+import Label from "./Label";
+import Select from "./Select";
 
 
 function App() {
@@ -8,17 +9,10 @@ function App() {
         <fieldset className="form__fieldset">
             <legend className="form__legend">Kalkulator walut</legend>
             <p>
-                <label className="form__label">
-                    <span className="form__labelText">Podaj kwotę (w PLN): </span><input className="form__field" type="number"
-                        min="1" step="0.01" name="money" />
-                </label>
+                <Label />
             </p>
             <p>
-                <select className="form__select" name="currency">
-                    <option value="EUR" selected>Euro</option>
-                    <option value="DOL">Dolar</option>
-                    <option value="GBP">Funt brytyjski</option>
-                </select>
+               <Select />
             </p>
             <p>
                 <button className="form__button" name="submit">Przelicz</button>
