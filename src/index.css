@@ -8,9 +8,10 @@ html {
   box-sizing: inherit;
 }
 
-.body{
+body{
   font-family: "Montserrat", sans-serif;
   margin: auto;
   line-height: 1.2;
-  background-size: 500px;
+  background-size: auto;
+  background-image: url("./share.png");
 }
