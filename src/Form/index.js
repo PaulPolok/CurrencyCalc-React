@@ -1,7 +1,11 @@
+import React, { useState } from "react";
 import "./style.css";
 import Label from "./Label";
 import Select from "./Select";
 import Button from "./Button";
+import Result from "./Result";
+
+
 
 const Form = (props) => (
     <form className="form">
@@ -13,8 +17,7 @@ const Form = (props) => (
                 <Button />
             </div>
             <div>
-                <span className="form__labelText">Kwota po przewalutowaniu: </span>
-                <span className="form__result">N/A</span>
+                <Result />
             </div>
         </fieldset>
     </form>

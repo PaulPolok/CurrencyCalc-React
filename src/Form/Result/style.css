@@ -1,13 +1,16 @@
-.label__field {
+.form__result {
     border: 2px solid #ddd;
     border-radius: 5px;
     padding: 5px;
     width: 100%;
     max-width: 150px;
+    display: inline-block;
+
 }
 
-.label__text {
+.form__labelText {
     width: 100%;
     max-width: 200px;
     display: inline-block;
+
 }
